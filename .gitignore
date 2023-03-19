@@ -348,3 +348,27 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Source WSDL/XSD.
+*.wsdl
+*.xsd
+
+# Intermediate File
+EamStubSlim/EamService.cs
+PbmStubSlim/PbmService.cs
+SmsStubSlim/SmsService.cs
+VimStubSlim/VimService.cs
+VslmStubSlim/VslmService.cs
+
+# Generaged File
+EamService/EamService.cs
+EamService/EamService.XmlSerializers.cs
+PbmService/PbmService.cs
+PbmService/PbmService.XmlSerializers.cs
+SmsService/SmsService.cs
+SmsService/SmsService.XmlSerializers.cs
+StsService/StsService.cs
+VimService/VimService.cs
+VimService/VimService.XmlSerializers.cs
+VslmService/VslmService.cs
+VslmService/VslmService.XmlSerializers.cs
