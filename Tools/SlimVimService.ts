@@ -1,5 +1,5 @@
-import { readLines } from "https://deno.land/std/io/mod.ts?s=readLines";
-import { BufWriter } from "https://deno.land/std/io/buffer.ts?s=BufWriter";
+import { readLines } from "https://deno.land/std@0.223.0/io/mod.ts?s=readLines";
+import { BufWriter } from "https://deno.land/std@0.223.0/io/mod.ts?s=BufWriter";
 
 const SKIP1 = "[System.Xml.Serialization.XmlIncludeAttribute(";
 const SKIP2 = "[System.ServiceModel.ServiceKnownTypeAttribute(";
@@ -43,5 +43,5 @@ for await (const line of readLines(sourceFile)) {
 
 writer.flush();
 
-Deno.close(sourceFile.rid);
-Deno.close(destinationFile.rid);
+sourceFile.close();
+destinationFile.close();

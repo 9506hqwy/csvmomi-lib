@@ -1,16 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="dotnet-svcutil.xmlserializer" Version="1.2.0" />
-    <PackageReference Include="System.ServiceModel.Http" Version="4.10.0" />
+    <PackageReference Include="dotnet-svcutil.xmlserializer" Version="8.0.0-preview1.24067.4" />
+    <PackageReference Include="System.ServiceModel.Http" Version="8.1.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <DotNetCliToolReference Include="dotnet-svcutil.xmlserializer" Version="1.2.0" />
+    <DotNetCliToolReference Include="dotnet-svcutil.xmlserializer" Version="8.0.0-preview1.24067.4" />
   </ItemGroup>
 </Project>

@@ -60,3 +60,4 @@ see [Allow for null XmlSerialziers when loading pre-gen from mappings](https://g
 ## References
 
 - [Announcing deprecation of vSphere Management SDK for .Net (C#) (87965)](https://kb.vmware.com/s/article/87965)
+- [vcf-api-specs](https://github.com/vmware/vcf-api-specs)

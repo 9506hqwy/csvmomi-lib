@@ -1,6 +1,6 @@
 {
   "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
-  "version": "2.1.0",
+  "version": "8.0.0",
   "options": {
     "inputs": [
       "../VimStubGen/wsdl/vim25/core-types.xsd",
@@ -11,7 +11,9 @@
       "../VimStubGen/wsdl/vim25/vim-messagetypes.xsd",
       "../VimStubGen/wsdl/vim25/vim-types.xsd",
       "../VimStubGen/wsdl/vim25/vim.wsdl",
-      "../VimStubGen/wsdl/vim25/vimService.wsdl"
+      "../VimStubGen/wsdl/vim25/vimService.wsdl",
+      "../VimStubGen/wsdl/vim25/vsan-messagetypes.xsd",
+      "../VimStubGen/wsdl/vim25/vsan-types.xsd"
     ],
     "namespaceMappings": [
       "*, VimService"
