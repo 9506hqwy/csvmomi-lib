@@ -397,6 +397,10 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
+# docfx
+doc/_site/
+doc/api/
+
 # Source WSDL/XSD.
 *.wsdl
 *.xsd
