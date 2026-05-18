@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>9.0.0.0</Version>
+    <Version>9.1.0.0</Version>
     <LangVersion>10.0</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
@@ -10,11 +10,11 @@
   <PropertyGroup>
     <Authors>9506hqwy</Authors>
     <Copyright>Copyright (c) 2023 9506hqwy. All Rights Reserved.</Copyright>
-    <Description>This library is VMware Storage Policy API 9.0.0.0-24798170 C# bindings.</Description>
+    <Description>This library is VMware Storage Policy API 9.1.0.0-25372366 C# bindings.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/9506hqwy/csvmomi-lib</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageVersion>9.0.0</PackageVersion>
+    <PackageVersion>9.1.0</PackageVersion>
     <RepositoryUrl>https://github.com/9506hqwy/csvmomi-lib</RepositoryUrl>
   </PropertyGroup>
 
