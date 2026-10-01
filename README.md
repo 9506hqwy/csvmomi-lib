@@ -41,37 +41,7 @@ This repository includes some bindings.
 
 ## Build
 
-1. Locate wsdl file to each service wsdl directory.
-
-   - EamStubGen
-   - PbmStubGen
-   - SmsStubGen
-   - StsStubGen
-   - VimStubGen
-   - VslmStubGen
-
-2. (Offline) Cache deno packages.
-
-   1. Cache packages.
-
-      ```sh
-      deno cache https://deno.land/std@0.223.0/io/mod.ts?s=readLines
-      deno cache https://deno.land/std@0.223.0/io/mod.ts?s=BufWriter
-      ```
-
-   2. Copy *%LocalAppData%\deno* to build machine.
-
-3. (Offline) Cache Nuget packages.
-
-   1. Cache packages.
-
-      ```sh
-      dotnet restore
-      ```
-
-   2. Copy *.nupkg* files under *%USERPROFILE%\.nuget\packages* to build machine.
-
-4. Run `build.bat`, output to `artifacts` directory.
+1. Run `build.sh`, output to `artifacts` directory.
 
 ## Notes
 

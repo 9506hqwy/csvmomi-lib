@@ -404,6 +404,7 @@ doc/api/
 # Source WSDL/XSD.
 *.wsdl
 *.xsd
+*/wsdl/**/*.md
 
 # Intermediate File
 EamStubSlim/EamService.cs

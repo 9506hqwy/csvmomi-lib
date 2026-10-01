@@ -70,3 +70,9 @@ dotnet tool install -g dotnet-dump
 dotnet tool install -g dotnet-monitor
 dotnet tool install -g dotnet-stack
 dotnet tool install -g dotnet-trace
+
+# Install dotnet-svcutil
+dotnet tool install -g dotnet-svcutil
+
+# Install deno
+sh -c "$(curl -fsSL https://deno.land/install.sh)" -- -y
