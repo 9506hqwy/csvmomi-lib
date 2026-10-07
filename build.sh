@@ -48,6 +48,3 @@ popd
 ## VslmService
 ./VslmStubGen/GenStub.sh
 ./VslmStubSlim/SlimStub.sh
-
-# Build library
-dotnet build -c Release -o artifacts

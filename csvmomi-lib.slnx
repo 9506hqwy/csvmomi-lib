@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="EamService/EamService.csproj" />
+  <Project Path="PbmService/PbmService.csproj" />
+  <Project Path="SmsService/SmsService.csproj" />
+  <Project Path="StsService/StsService.csproj" />
+  <Project Path="VimService/VimService.csproj" />
+  <Project Path="VslmService/VslmService.csproj" />
+</Solution>

@@ -1,5 +1,5 @@
 {
-    "dotnet.defaultSolution": "csvmomi-lib.sln",
+    "dotnet.defaultSolution": "csvmomi-lib.slnx",
     "editor.codeLens": false,
     "editor.formatOnPaste": false,
     "editor.formatOnSave": true,
