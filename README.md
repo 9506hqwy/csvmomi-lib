@@ -1,6 +1,6 @@
 # Build vSphere Management SDK for .Net
 
-This repository is build project for vSphere Management API C# bindings for .NET Standard 2.0.
+This repository is build project for vSphere Management API C# bindings for .NET 8.0 or .NET Framework 4.7.2 or later.
 
 This repository includes some bindings.
 
