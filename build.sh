@@ -5,6 +5,15 @@ set -euo pipefail
 VERSION="9.1.1.0"
 SPEC_URL="https://github.com/vmware/vcf-api-specs.git"
 
+if ! dotnet tool list -g dotnet-svcutil >/dev/null 2>&1; then
+    dotnet tool install -g dotnet-svcutil
+fi
+
+if ! command -v deno >/dev/null 2>&1; then
+    sh -c "$(curl -fsSL https://deno.land/install.sh)" -- -y
+    source "${HOME}/.deno/env"
+fi
+
 SHDIR=$(cd "$(dirname "$0")"; pwd)
 
 WORKDIR=$(mktemp -d)
